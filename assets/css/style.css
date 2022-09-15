@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    clear::both;
+    display: table;
+}
+
+body{
+    width: 60%;
+    margin: auto;
+}
+
+h1{
+    padding: 20px;
+    color: rgb(236, 52, 138);
+    font-family: 'Kanit', sans-serif;
+}
+
+h1, p{
+    text-align: center;
+    padding-top: 30px;
+}
+
+p{
+    padding-top: 40px;
+}
+
+.card{
+    float: left;
+    width: calc(100% / 3);
+    padding: 25px;
+    padding-top: 40px;
+}
+
+.img{
+    float: left;
+    height: 100px;
+    padding-right: 10px;
+}
+
+.profile{
+    background-color: black;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 3);
+}
+
+h2{
+    color: white;
+    padding-top: 7px;
+    font-size: 20px;
+}
+
+h3{
+    color: white;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-size: 17px;
+}
+
+.blue{
+    color:aqua;
+    font-size: 15px;
+}
